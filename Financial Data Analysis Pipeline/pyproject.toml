@@ -1,0 +1,20 @@
+[project]
+name = "financial-data-analysis-pipeline"
+version = "1.0.0"
+description = "End-to-end Python pipeline for financial transaction analysis — data cleaning, feature engineering, anomaly detection, and automated report generation."
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0,<3.0",
+    "numpy>=1.24,<3.0",
+    "matplotlib>=3.7,<4.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
