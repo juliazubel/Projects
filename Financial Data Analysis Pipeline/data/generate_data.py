@@ -3,11 +3,15 @@ Generates a realistic financial transactions dataset for demo purposes.
 Run this once to create data/transactions.csv
 """
 
-import pandas as pd
-import numpy as np
 from datetime import datetime, timedelta
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
 
 np.random.seed(42)
+
+OUTPUT_PATH = Path(__file__).parent / "transactions.csv"
 
 N = 2000
 start_date = datetime(2023, 1, 1)
@@ -31,7 +35,7 @@ for _ in range(N):
     lo, hi = category_weights[cat]
     amounts.append((cat, round(np.random.uniform(lo, hi), 2)))
 
-cat_col, amt_col = zip(*amounts)
+cat_col, amt_col = zip(*amounts, strict=True)
 
 # Inject ~3% anomalies
 anomaly_idx = np.random.choice(N, size=int(N * 0.03), replace=False)
@@ -53,5 +57,5 @@ df = pd.DataFrame({
 null_rows = np.random.choice(N, size=int(N * 0.02), replace=False)
 df.loc[null_rows, "amount"] = np.nan
 
-df.to_csv("desktop/data/transactions.csv", index=False)
-print(f"Generated {len(df)} transactions → desktop/data/transactions.csv")
+df.to_csv(OUTPUT_PATH, index=False)
+print(f"Generated {len(df)} transactions → {OUTPUT_PATH}")
