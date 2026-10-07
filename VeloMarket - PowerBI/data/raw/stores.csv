@@ -1,0 +1,15 @@
+StoreID,StoreName,Channel,City,Country,CountryCode,Currency,Region,OpenDate,SalesAreaM2
+PL-WAW-01,VeloMarket Warszawa Mokotów,Store,Warszawa,Poland,PL,PLN,Central,2019-03-15,1200
+PL-WAW-02,VeloMarket Warszawa Wola,Store,Warszawa,Poland,PL,PLN,Central,2021-05-01,900
+PL-KRK-01,VeloMarket Kraków,Store,Kraków,Poland,PL,PLN,South,2019-09-01,1100
+PL-WRO-01,VeloMarket Wrocław,Store,Wrocław,Poland,PL,PLN,West,2020-04-01,950
+PL-GDN-01,VeloMarket Gdańsk,Store,Gdańsk,Poland,PL,PLN,North,2022-03-01,850
+PL-POZ-01,VeloMarket Poznań,Store,Poznań,Poland,PL,PLN,West,2023-06-01,800
+PL-LDZ-01,VeloMarket Łódź,Store,Łódź,Poland,PL,PLN,Central,2024-04-15,750
+PL-WEB-01,velomarket.pl,E-commerce,Warszawa,Poland,PL,PLN,Online PL,2018-01-01,
+PL-MKT-01,Marketplace PL,Marketplace,Poznań,Poland,PL,PLN,Online PL,2020-01-01,
+CZ-PRG-01,VeloMarket Praha,Store,Praha,Czechia,CZ,CZK,Czechia,2021-04-01,1000
+CZ-BRN-01,VeloMarket Brno,Store,Brno,Czechia,CZ,CZK,Czechia,2024-09-01,700
+CZ-WEB-01,velomarket.cz,E-commerce,Praha,Czechia,CZ,CZK,Czechia,2021-01-01,
+DE-BER-01,VeloMarket Berlin,Store,Berlin,Germany,DE,EUR,Germany,2022-10-01,1100
+DE-WEB-01,velomarket.de,E-commerce,Berlin,Germany,DE,EUR,Germany,2022-06-01,
