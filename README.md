@@ -16,6 +16,9 @@ The repository includes multiple projects covering different areas of data scien
 
 * **Financial Data Analysis Pipeline** – automated pipeline for collecting, processing, and analyzing financial datasets.
 
+### Business Intelligence
+* **Power BI - VeloMarket** - end-to-end Power BI solution for an omnichannel retailer: Power Query ETL from messy multi-source data, star-schema model with four fact tables, advanced DAX (cohorts, RFM, like-for-like, budget allocation, semi-additive inventory), calculation groups, field parameters and dynamic RLS.
+
 ### Machine Learning
 
 * **Machine Learning – Yamaha Stock Price Prediction with LSTM** – deep learning model for time series forecasting of stock prices using an LSTM neural network.
