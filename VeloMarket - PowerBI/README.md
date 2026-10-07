@@ -6,8 +6,6 @@ The project covers the full BI developer workflow: messy multi-source ETL in Pow
 with four fact tables at different grains, advanced DAX, calculation groups, dynamic RLS, performance tuning
 and source control in the **PBIP / TMDL** format.
 
-> TODO: add `images/demo.gif` (short recording: field parameters, drill-through, tooltips)
-
 ![Executive overview](images/01_executive_overview.png)
 
 ---
@@ -85,8 +83,6 @@ erDiagram
   and allocated to days, so it can be compared at any date granularity.
 - Single-direction relationships only, integer surrogate keys, technical members for unknown products / anonymous customers.
 - Disconnected helper tables: RFM segments, cohort offsets, Top N, market-basket axis, security mapping.
-
-> TODO: replace with a screenshot of the model view – `images/data_model.png`
 
 ## Power Query highlights
 
@@ -184,11 +180,6 @@ Tested with *View as* for country managers, a multi-country director and the CEO
 ├── docs/                         data dictionary, measure dictionary
 └── images/                       screenshots
 ```
-
-## Key insights
-
-> TODO: 3–4 bullet points with your own business conclusions (e.g. e-bike growth, LFL vs total growth,
-> cohort retention, category with the highest return rate).
 
 ## Tools
 
